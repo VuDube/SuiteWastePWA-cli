@@ -1,0 +1,114 @@
+{
+  "apps": {
+    "dashboard": {
+      "title": "Ideshibhodi",
+      "description": "Ulwazi lwesikhathi sangempela mayelana nokusebenza kokuphathwa kukadoti.",
+      "aiInsights": "Ukuqonda kwe-AI & Okuphambene",
+      "aiInsightsDesc": "Izexwayiso ezisebenzayo neziphakamiso ezivela ku-AI yethu."
+    },
+    "operations": {
+      "title": "Ukusebenza",
+      "dailyRoutes": "Imizila Yansuku zonke",
+      "optimizeRoutes": "Lungiselela Imizila",
+      "liveTracking": "Ukulandelela Izimoto Bukhoma",
+      "trackingActive": "Ukulandelela izimoto kuyasebenza. {online}/{total} izimoto ziku-inthanethi.",
+      "aiSuggestion": "Isiphakamiso se-AI",
+      "aiSuggestionComplete": "I-AI ikhiqize umzila olungiselelwe.",
+      "taskBoard": "Ibhodi Lokwabela Imisebenzi",
+      "unassignedTasks": "Imisebenzi Engabelwe"
+    },
+    "compliance": {
+      "title": "Ukuthobela",
+      "description": "Phatha futhi ulandelele ukuthobela imithetho.",
+      "checklist": "Uhlu Lokuhlola Ukuthobela",
+      "generateReport": "Khiqiza Umbiko",
+      "generateReportDesc": "Khiqiza umbiko wokuthobela olungele ukuhlolwa ngokuchofoza okukodwa.",
+      "generatePdf": "Khiqiza Umbiko we-PDF",
+      "runAiAudit": "Qalisa Ukuhlolwa kwe-AI",
+      "aiAuditCompleteTitle": "Ukuhlolwa kwe-AI Kuphothuliwe",
+      "aiAuditCompleteMessage": "{count} izinkinga zokuthobela zitholakele futhi zaxazululwa ngokuzenzakalelayo."
+    },
+    "payments": {
+      "title": "Izinkokhelo",
+      "description": "Phatha izinkokhelo ezingenamali ngokuphepha.",
+      "newPayment": "Inkokhelo Entsha",
+      "recipient": "Umamukeli",
+      "amount": "Isamba (R)",
+      "sendPayment": "Thumela Inkokhelo",
+      "history": "Umlando Wokwenziwe",
+      "payWithQr": "Khokha nge-QR Code",
+      "scanQrCode": "Skena le khodi ye-QR ngohlelo lwakho lokusebenza lwebhange ukuze uqedele inkokhelo.",
+      "qrCodeFor": "Ikhodi ye-QR ye-R {amount}"
+    },
+    "marketplace": {
+      "title": "Imakethe ye-e-Waste",
+      "description": "Ukuxhumanisa abathengi nabathengisi emnothweni oyindilinga.",
+      "createListing": "Dala Uhlu",
+      "view": "Buka",
+      "scanWithCamera": "Skena ngekhamera",
+      "capture": "Thatha isithombe",
+      "classifying": "Ihlukanisa into",
+      "classificationComplete": "Ukuhlukanisa kuphothuliwe",
+      "viewOnBlockchain": "Buka ku-Chain",
+      "transactionHistory": "Umlando Wokuthengiselana Kwento",
+      "genesisBlock": "Isiqalo",
+      "tx": "Ukuthengiselana"
+    },
+    "training": {
+      "title": "Isikhungo Sokuqeqesha",
+      "description": "Thuthukisa amakhono akho ngamamojula ethu asebenzisanayo.",
+      "start": "Qala",
+      "resume": "Qhubeka",
+      "completed": "Kuphothuliwe",
+      "quizTitle": "Ukuhlolwa Kolwazi",
+      "question": "Umbuzo",
+      "nextQuestion": "Umbuzo Olandelayo",
+      "submitQuiz": "Thumela Imibuzo",
+      "yourScore": "Isikolo Sakho",
+      "retakeQuiz": "Phinda Imibuzo",
+      "quizComplete": "Imibuzo Iphelele",
+      "courses": "Izifundo",
+      "leaderboard": "Ibhodi yabaphambili",
+      "myBadges": "Amabheji Ami",
+      "rank": "Izinga",
+      "user": "Umsebenzisi",
+      "points": "Amaphuzu",
+      "earnedOn": "Kuzuzwe ngo",
+      "noBadges": "Qedela izifundo ukuze uthole amabheji!"
+    },
+    "assistant": {
+      "title": "Umsizi we-AI",
+      "placeholder": "Buza umsizi...",
+      "thinking": "Ngiyacabanga...",
+      "usageLimit": "Ukusebenzisana ne-AI kunemikhawulo yokusetshenziswa."
+    },
+    "settings": {
+      "title": "Izilungiselelo",
+      "description": "Yenza ngokwezifiso umuzwa wakho we-SuiteWaste OS.",
+      "appearance": "Ukubukeka",
+      "darkMode": "Imodi Emnyama",
+      "wallpaper": "Iphephadonga ledeskithophu",
+      "language": "Ulimi"
+    }
+  },
+  "os": {
+    "notifications": {
+      "title": "Izaziso",
+      "clearAll": "Sula konke",
+      "noNotifications": "Azikho izaziso ezintsha"
+    },
+    "desktop": {
+      "1": "Ideskithophu 1",
+      "2": "Ideskithophu 2",
+      "3": "Ideskithophu 3",
+      "4": "Ideskithophu 4",
+      "5": "Ideskithophu 5"
+    },
+    "windowControls": {
+      "minimize": "Nciphisa",
+      "maximize": "Khulisa",
+      "restore": "Buyisela",
+      "close": "Vala"
+    }
+  }
+}

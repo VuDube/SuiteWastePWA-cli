@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Minimal maskable SVG icon for SuiteWaste OS
+  Simple leaf motif using brand green (#2E7D32). Keep paths simple for mask usage.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="512" height="512" role="img" aria-label="SuiteWaste logo">
+  <title>SuiteWaste</title>
+  <rect width="100%" height="100%" fill="#ffffff" opacity="0"/>
+  <path fill="#2E7D32" d="M12 2C9.5 5 7 7.5 4 9.5c0 4 1.5 7 4 9.5 2.5 2.5 5.5 3 8 3 0 0 .5-3.5-1.5-6S15 14.5 12 12c-1.5-1-2.5-2-3-3 1.5-1 3-2.5 4.5-4.5C14 3.5 14 2 12 2z"/>
+  <!-- Inner cut for a simple leaf vein to make icon more distinctive in mask context -->
+  <path fill="#ffffff" d="M12.5 5c-1 1-2 2-3 3 .5 1 .5 2 1.5 3s2 1.5 3 2.5c1-1 2-2 2.5-3.5C17 8 15.5 6 12.5 5z"/>
+</svg>

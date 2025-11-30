@@ -1,0 +1,114 @@
+{
+  "apps": {
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Intydse insigte in afvalbestuurbedrywighede.",
+      "aiInsights": "KI Insigte & Afwykings",
+      "aiInsightsDesc": "Proaktiewe waarskuwings en voorstelle van ons KI."
+    },
+    "operations": {
+      "title": "Bedrywighede",
+      "dailyRoutes": "Daaglikse Roetes",
+      "optimizeRoutes": "Optimaliseer Roetes",
+      "liveTracking": "Regstreekse Voertuigopsporing",
+      "trackingActive": "Voertuigopsporing is aktief. {online}/{total} voertuie aanlyn.",
+      "aiSuggestion": "KI-voorstel",
+      "aiSuggestionComplete": "KI het 'n geoptimaliseerde roete gegenereer.",
+      "taskBoard": "Taaktoewysingsbord",
+      "unassignedTasks": "Opgedraagde Take"
+    },
+    "compliance": {
+      "title": "Nakoming",
+      "description": "Bestuur en volg regulatoriese nakoming.",
+      "checklist": "Nakomingskontrolelys",
+      "generateReport": "Genereer Verslag",
+      "generateReportDesc": "Genereer 'n oudit-gereed nakomingsverslag met een klik.",
+      "generatePdf": "Genereer PDF-verslag",
+      "runAiAudit": "Begin KI-oudit",
+      "aiAuditCompleteTitle": "KI-oudit Voltooi",
+      "aiAuditCompleteMessage": "{count} nakomingskwessies gevind en outomaties opgelos."
+    },
+    "payments": {
+      "title": "Betalings",
+      "description": "Hanteer kontantlose transaksies veilig.",
+      "newPayment": "Nuwe Betaling",
+      "recipient": "Ontvanger",
+      "amount": "Bedrag (R)",
+      "sendPayment": "Stuur Betaling",
+      "history": "Transaksiegeskiedenis",
+      "payWithQr": "Betaal met QR-kode",
+      "scanQrCode": "Skandeer hierdie QR-kode met jou mobiele bank-app om die betaling te voltooi.",
+      "qrCodeFor": "QR-kode vir R {amount}"
+    },
+    "marketplace": {
+      "title": "e-Afval Markplein",
+      "description": "Verbind kopers en verkopers in die sirkulêre ekonomie.",
+      "createListing": "Skep Lysinskrywing",
+      "view": "Besigtig",
+      "scanWithCamera": "Skandeer met kamera",
+      "capture": "Neem foto",
+      "classifying": "Klassifiseer item",
+      "classificationComplete": "Klassifikasie voltooi",
+      "viewOnBlockchain": "Besigtig op Ketting",
+      "transactionHistory": "Item Transaksiegeskiedenis",
+      "genesisBlock": "Genesis",
+      "tx": "Tx"
+    },
+    "training": {
+      "title": "Opleidingsentrum",
+      "description": "Verbeter jou vaardighede met ons interaktiewe modules.",
+      "start": "Begin",
+      "resume": "Hervat",
+      "completed": "Voltooi",
+      "quizTitle": "Kennis Toets",
+      "question": "Vraag",
+      "nextQuestion": "Volgende Vraag",
+      "submitQuiz": "Dien Vasvra in",
+      "yourScore": "Jou telling",
+      "retakeQuiz": "Herneem Vasvra",
+      "quizComplete": "Vasvra Voltooi",
+      "courses": "Kursusse",
+      "leaderboard": "Ranglys",
+      "myBadges": "My Kentekens",
+      "rank": "Rang",
+      "user": "Gebruiker",
+      "points": "Punte",
+      "earnedOn": "Verdien op",
+      "noBadges": "Voltooi kursusse om kentekens te verdien!"
+    },
+    "assistant": {
+      "title": "KI-assistent",
+      "placeholder": "Vra die assistent...",
+      "thinking": "Dink...",
+      "usageLimit": "KI-interaksies is onderhewig aan gebruiksbeperkings."
+    },
+    "settings": {
+      "title": "Instellings",
+      "description": "Pasmaak jou SuiteWaste OS-ervaring.",
+      "appearance": "Voorkoms",
+      "darkMode": "Donker Modus",
+      "wallpaper": "Werkskermagtergrond",
+      "language": "Taal"
+    }
+  },
+  "os": {
+    "notifications": {
+      "title": "Kennisgewings",
+      "clearAll": "Maak alles skoon",
+      "noNotifications": "Geen nuwe kennisgewings"
+    },
+    "desktop": {
+      "1": "Werkskerm 1",
+      "2": "Werkskerm 2",
+      "3": "Werkskerm 3",
+      "4": "Werkskerm 4",
+      "5": "Werkskerm 5"
+    },
+    "windowControls": {
+      "minimize": "Minimeer",
+      "maximize": "Maksimeer",
+      "restore": "Herstel",
+      "close": "Maak toe"
+    }
+  }
+}

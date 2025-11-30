@@ -1,0 +1,114 @@
+{
+  "apps": {
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Real-time insights into waste management operations.",
+      "aiInsights": "AI Insights & Anomalies",
+      "aiInsightsDesc": "Proactive alerts and suggestions from our AI."
+    },
+    "operations": {
+      "title": "Operations",
+      "dailyRoutes": "Daily Routes",
+      "optimizeRoutes": "Optimize Routes",
+      "liveTracking": "Live Vehicle Tracking",
+      "trackingActive": "Vehicle tracking is active. {online}/{total} vehicles online.",
+      "aiSuggestion": "AI Suggestion",
+      "aiSuggestionComplete": "AI has generated an optimized route.",
+      "taskBoard": "Task Assignment Board",
+      "unassignedTasks": "Unassigned Tasks"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "description": "Manage and track regulatory compliance.",
+      "checklist": "Compliance Checklist",
+      "generateReport": "Generate Report",
+      "generateReportDesc": "Generate an audit-ready compliance report with one click.",
+      "generatePdf": "Generate PDF Report",
+      "runAiAudit": "Run AI Audit",
+      "aiAuditCompleteTitle": "AI Audit Complete",
+      "aiAuditCompleteMessage": "{count} compliance issues found and automatically resolved."
+    },
+    "payments": {
+      "title": "Payments",
+      "description": "Handle cashless transactions securely.",
+      "newPayment": "New Payment",
+      "recipient": "Recipient",
+      "amount": "Amount (R)",
+      "sendPayment": "Send Payment",
+      "history": "Transaction History",
+      "payWithQr": "Pay with QR Code",
+      "scanQrCode": "Scan this QR code with your mobile banking app to complete the payment.",
+      "qrCodeFor": "QR Code for R {amount}"
+    },
+    "marketplace": {
+      "title": "e-Waste Marketplace",
+      "description": "Connecting buyers and sellers in the circular economy.",
+      "createListing": "Create Listing",
+      "view": "View",
+      "scanWithCamera": "Scan with Camera",
+      "capture": "Capture",
+      "classifying": "Classifying Item",
+      "classificationComplete": "Classification Complete",
+      "viewOnBlockchain": "View on Chain",
+      "transactionHistory": "Item Transaction History",
+      "genesisBlock": "Genesis",
+      "tx": "Tx"
+    },
+    "training": {
+      "title": "Training Hub",
+      "description": "Enhance your skills with our interactive modules.",
+      "start": "Start",
+      "resume": "Resume",
+      "completed": "Completed",
+      "quizTitle": "Knowledge Check",
+      "question": "Question",
+      "nextQuestion": "Next Question",
+      "submitQuiz": "Submit Quiz",
+      "yourScore": "Your Score",
+      "retakeQuiz": "Retake Quiz",
+      "quizComplete": "Quiz Complete",
+      "courses": "Courses",
+      "leaderboard": "Leaderboard",
+      "myBadges": "My Badges",
+      "rank": "Rank",
+      "user": "User",
+      "points": "Points",
+      "earnedOn": "Earned on",
+      "noBadges": "Complete courses to earn badges!"
+    },
+    "assistant": {
+      "title": "AI Assistant",
+      "placeholder": "Ask the assistant...",
+      "thinking": "Thinking...",
+      "usageLimit": "AI interactions are subject to usage limits."
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Customize your SuiteWaste OS experience.",
+      "appearance": "Appearance",
+      "darkMode": "Dark Mode",
+      "wallpaper": "Desktop Wallpaper",
+      "language": "Language"
+    }
+  },
+  "os": {
+    "notifications": {
+      "title": "Notifications",
+      "clearAll": "Clear all",
+      "noNotifications": "No new notifications"
+    },
+    "desktop": {
+      "1": "Desktop 1",
+      "2": "Desktop 2",
+      "3": "Desktop 3",
+      "4": "Desktop 4",
+      "5": "Desktop 5"
+    },
+    "windowControls": {
+      "minimize": "Minimize",
+      "maximize": "Maximize",
+      "restore": "Restore",
+      "close": "Close"
+    }
+  }
+}
