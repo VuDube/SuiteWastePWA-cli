@@ -1,0 +1,47 @@
+name = "suitewaste-backend"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+account_id = "<YOUR_CLOUDFLARE_ACCOUNT_ID>"
+workers_dev = true
+node_compat = false
+compatibility_flags = ["nodejs_compat"]
+
+# Bindings for D1, KV, R2, Durable Objects, Env Vars
+[vars]
+JWT_SECRET = "<set-in-dashboard>"
+VAPID_PUBLIC_KEY = "<set-in-dashboard>"
+VAPID_PRIVATE_KEY = "<set-in-dashboard>"
+NB_API_KEY = "NEXTBILLION_PLACEHOLDER_KEY"
+NB_TILE_URL = "https://api.nextbillion.io/tiles/v1/{z}/{x}/{y}.pbf?key=${NB_API_KEY}"
+REGION = "ZA"
+ENVIRONMENT = "production"
+
+# ---- DATABASE ----
+[[d1_databases]]
+binding = "DB"
+database_name = "suitewaste"
+database_id = "<D1_DATABASE_ID>"
+
+# ---- KV ----
+[[kv_namespaces]]
+binding = "KV_CACHE"
+id = "<KV_NAMESPACE_ID>"
+
+# ---- R2 ----
+[[r2_buckets]]
+binding = "R2_PODS"
+bucket_name = "suitewaste-pods"
+preview_bucket_name = "suitewaste-pods-dev"
+
+# ---- Durable Objects ----
+[[durable_objects.bindings]]
+name = "VEHICLE_TRACKING_DO"
+class_name = "VehicleTrackingDO"
+
+# DO migrations
+[durable_objects]
+classes = ["VehicleTrackingDO"]
+
+# ---- Custom Build Step ----
+[build]
+command = "npm run build"
